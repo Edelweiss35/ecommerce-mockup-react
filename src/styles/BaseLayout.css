@@ -1,0 +1,19 @@
+.footer-details {
+  background-color: #000;
+  height: 1.5vw;
+  color: #fff;
+}
+.footer-hero img {
+  width: 75vw;
+}
+.footer-hero {
+  text-align: center;
+  background-color: #F2F2F2;
+}
+
+/*---------- Mobile Media Query ---------------*/
+
+@media (min-width: 300px) and (max-width: 600px) {
+
+
+}

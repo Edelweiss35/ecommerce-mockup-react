@@ -1,0 +1,56 @@
+.hero {
+  background-image: url('https://s.aolcdn.com/hss/storage/midas/db07d6e4ce150c850d38645fee253514/204296855/design_hero_large.jpg');
+  height: 85vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin-bottom: 0.25%;
+}
+
+.main-image-text {
+  text-align: center;
+  color: #fff;
+  padding-top: 4%;
+}
+
+h2 {
+  font-size: 3em;
+}
+h6 {
+  font-size: 2em;
+  text-align: center;
+  font-weight: 100;
+}
+
+h5 {
+  font-size: 1.25em;
+  text-align: center;
+}
+
+.featured-flex {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+ .image-details img {
+   width: 25vw;
+   height: 45vh;
+ }
+
+ .image-details {
+   flex-basis: 25%;
+ }
+
+ /*---------- Mobile Media Query ---------------*/
+
+ @media (min-width: 300px) and (max-width: 600px) {
+   .featured-flex {
+     flex-direction: column;
+   }
+   .image-details img {
+     width: 100vw;
+     height: 55vh;
+   }
+ }
